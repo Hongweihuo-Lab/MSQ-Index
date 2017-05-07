@@ -10,7 +10,7 @@ MSQ-Index is a succinct index for fast graph similarity search. It can efficient
    2. Compile the source code. 
 ### Step II. Build MSQ-Index 
    1. run the shell command: "./multiBuild db db_num pos l", where *db* is the graph database, *db_num* is the number of graphs to be built, *pos* is the index position(e.g., ./index/), and *l* is the subreiogn length. 
-### Step III. Query 
+### Step III. Query Processing
    1. run the shell command: "./multiQuery pos query_db threshold", where *pos* is the index position, *query_db* is the query graph sets, *threshold* is the edit distance threshold *t*. 
 
 ## Contributors
