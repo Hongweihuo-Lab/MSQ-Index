@@ -1,4 +1,4 @@
-#MSQ-Index (Multi Succinct Q-gram Tree Index)
+# MSQ-Index (Multi Succinct Q-gram Tree Index)
 
 ## What is it?
 MSQ-Index is a succinct index for fast graph similarity search.It can efficiently answer the following query problem: Given a graph database $G =\{g_1 ,g_2, \dots, g_n\}$, a query graph $h$ and an edit distance threshold $\tau$, find the graphs in $G$ are similar to $h$; that is, $Cand = \{g: g \in G \ and \ ged(g, h) \leq \tau\}$, where $ged(g, h)$ is the edit distance between $g$ and $h$.
