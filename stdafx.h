@@ -1,6 +1,6 @@
-// stdafx.h : 标准系统包含文件的包含文件，
-// 或是经常使用但不常更改的
-// 特定于项目的包含文件
+// stdafx.h : 鏍囧噯绯荤粺鍖呭惈鏂囦欢鐨勫寘鍚枃浠讹紝
+// 鎴栨槸缁忓父浣跨敤浣嗕笉甯告洿鏀圭殑
+// 鐗瑰畾浜庨」鐩殑鍖呭惈鏂囦欢
 //
 #pragma once
 #pragma warning( disable : 4996) 
@@ -68,15 +68,6 @@ static int VBS = 16;
 
 static int position = 1;
 const int MAX = 200000;
-const std::string AIDS = "d:\\data\\database\\AIDS";
-const std::string AIDS_Query = "d:\\data\\query\\AIDS";
-const std::string AIDS_100 = "d:\\data\\query\\AIDS_100";
-const std::string Query_400 = "d:\\data\\query\\m1200";
-const std::string Pub_400 = "d:\\data\\database\\m400";
-const std::string Pub_2400 = "d:\\data\\query\\m1200";
-const std::string Query_4 = "d:\\data\\query\\m4";
-const std::string AIDS_temp = "d:\\data\\query\\temp";
-using namespace std;
 struct BTuple
 {
 	int column;
