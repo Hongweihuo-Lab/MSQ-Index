@@ -293,7 +293,7 @@ public:
 							bh->queryDegree(bt, countTuple, degree1, count1);
 							int diff = count2 - count1; 
 						
-							if(diff <= 0 || diff > 4)							
+							if(diff <= 0)							
 							{
 								int ed = common::degreeEditDistance(degree1, count1, dq, count2);
 								if (d >= max(a_rect->vertex, (int)vertex) - vertexSum + ed) //if-1.1.1.1.1
