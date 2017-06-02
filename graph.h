@@ -32,44 +32,7 @@ public:
 		this->Edge = g.Edge;
 	}
 	graph(){}
-	~graph(){}
-	static vector<graph> readGraphMemory(const char *file, int total)
-	{
-		ifstream fr(file, ios::in);
-		vector<graph> vg;
-		int gid, v, e;
-		int f, t, l;
-		int vd;
-		int count = 0;
-
-		while (fr >> gid)
-		{
-			fr >> v >> e;
-			vector<int> vc;
-			for (int i = 0; i < v; i++)
-			{
-				fr >> vd;
-				vc.push_back(vd);
-			}
-			vector<int> adj(v, -1);
-			vector<vector<int> > adjMatrix(v, adj);
-			for (int i = 0; i < e; i++)
-			{
-				fr >> f >> t >> l;
-				adjMatrix[f][t] = l;
-				adjMatrix[t][f] = l;
-			}
-			graph g(gid, v, vc, e, adjMatrix);
-			vg.push_back(g);
-			count++;
-			if (count >= total)
-				break;
-		}
-		fr.close();
-		return vg;
-
-	}
-
+	~graph(){}	
 public:
 	bool hasEdge(int from, int to, int &einfo)
 	{
