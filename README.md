@@ -15,7 +15,6 @@ MSQ-Index is a succinct index for fast graph similarity search. It can efficient
    parameter. 
 
 ## Contributors
-### code
-•	Xiaoyang Chen 
+ 
 ### paper
 X. Chen, H. Huo, J. Huan, and J. S. Vitter, et al., MSQ-Index: A succinct index for fast graph similarity search. IEEE Transactions on Knowledge and Data Engineering (TKDE), November 20, 2019. 
