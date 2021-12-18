@@ -14,7 +14,5 @@ MSQ-Index is a succinct index for fast graph similarity search. It can efficient
    1. run the shell command: "./multiQuery pos query_db threshold k", where *pos* is the index position, *query_db* is the query graph sets, *threshold* is the edit distance threshold, and *k* is the boosting 
    parameter. 
 
-## Contributors
- 
-### paper
-X. Chen, H. Huo, J. Huan, and J. S. Vitter, et al., MSQ-Index: A succinct index for fast graph similarity search. IEEE Transactions on Knowledge and Data Engineering (TKDE), November 20, 2019. 
+## Paper
+X. Chen, H. Huo, J. Huan, and J. S. Vitter, et al., MSQ-Index: A succinct index for fast graph similarity search. IEEE Transactions on Knowledge and Data Engineering (TKDE), 33(6):2654-2668, 2021. 
