@@ -19,4 +19,5 @@ X. Chen, H. Huo, J. Huan, and J. S. Vitter, et al., MSQ-Index: A succinct index 
 
 ### Feedback
 Please report bugs to X. Chen <jackcxy@126.com> if any. Your feedback and test results are welcome.
-
+### LOg
+Jan. 02, 2022, Delete redundant header file: rankIndex.h 
